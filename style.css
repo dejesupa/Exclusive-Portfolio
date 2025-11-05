@@ -100,6 +100,10 @@ input:focus, textarea:focus {
      color: #f06449;
 }
 
+.purple {
+    color: rgb(181, 52, 181)
+}
+
 .link__hover-effect {
     position: relative;
 }
@@ -208,7 +212,7 @@ LANDING PAGE
 }
 
 .social__link {
-    background-color: #f06449;
+    background-color: rgb(181, 52, 181);
     color: white;
     padding: 6px;
     width: 32px;
