@@ -583,10 +583,17 @@ PROJECTS
 .project__description--sub-title {
     margin-top: 8px;
 }
+
 .project__description--link {
     color: white;
     font-size: 20px;
     margin-right: 16px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.project__description--link:hover {
+  color:  rgb(181, 52, 181); /* change to your accent color */
+  transform: scale(1.1); /* subtle zoom effect */
 }
 
 .project__description--para {
