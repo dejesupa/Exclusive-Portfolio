@@ -62,7 +62,7 @@ input:hover, textarea:hover {
 }
 
 input:focus, textarea:focus {
-    border-color: #f06449;
+    border-color: rgb(181, 52, 181);
 }
 
 .container {
@@ -372,6 +372,7 @@ MODAL
 
 .modal__languages {
  display: flex;
+ flex-wrap: wrap;
 }
 
 .modal__language {
@@ -431,8 +432,8 @@ MODAL
 }
 
 .form__submit {
-    background-color: #f06449;
-    border: 2px solid #f06449;
+    background-color: rgb(181, 52, 181);
+    border: 2px solid rgb(181, 52, 181);
     color: white;
     font-weight: bold;
     width: 100%;
@@ -448,8 +449,8 @@ MODAL
 }
 
 .form__submit:active {
-    border-color: #f06449;
-    color: #f06449;
+    border-color:rgb(181, 52, 181);
+    color: rgb(181, 52, 181);
 }
 
 .modal__overlay {
